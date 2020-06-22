@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<title>Yank It! Config</title>
+	<meta charset='utf-8' />
+	<link rel='stylesheet' href='index.css' type='text/css'>
+</head>
+
+<body>
+	<h3>Yank It!</h3>
+
+	<form>
+		<input type='checkbox' name='enabled' id='enabled' checked />
+		<label for='enabled'>Enabled</label><br />
+
+		<input type='checkbox' name='allow-flick' id='allow-flick' checked />
+		<label for='allow-flick'>Allow Flicking</label><br />
+
+		<input type='number' name='friction-amt' id='friction-amt' min='0' max='1' value='0.05' step='0.01' />
+		<label for='friction-amt'>Friction</label><br />
+
+		<button type='submit'>Save</button>
+	</form>
+
+	<script src='config.js'></script>
+</body>
+
+</html>

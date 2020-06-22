@@ -1,0 +1,35 @@
+/* yank it! - (c) sarah 2020 */
+html {
+	background-color: #2f0f0f;
+	text-shadow: 1px 1px 1px #000f;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	border-radius: 10mm;
+	margin: 5mm;
+	padding: 5mm;
+	user-select: none;
+
+	box-shadow: 1mm 1mm 2mm #1006,
+		-1mm -1mm 2mm #f332;
+}
+
+body * {
+	margin: 1mm;
+	font-weight: bold;
+}
+
+button, input {
+	background-color: #2f0f0f;
+	color: white;
+	border-radius: 1mm;
+	border: 1mm solid #4f1f1f;
+	padding: 1mm 2mm;
+}
