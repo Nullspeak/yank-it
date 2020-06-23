@@ -10,7 +10,6 @@ let velY = 0;
 window.addEventListener('mousedown', (e) => {
 	if (e.button === 1 && !e.shiftKey) {
 		mouseDown = true;
-		document.body.style.cursor = 'move';
 		e.preventDefault();
 	}
 });
@@ -18,7 +17,6 @@ window.addEventListener('mousedown', (e) => {
 window.addEventListener('mouseup', (e) => {
 	if (e.button === 1) {
 		mouseDown = false;
-		document.body.style.cursor = 'default';
 	}
 });
 
